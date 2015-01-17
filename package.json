@@ -1,0 +1,29 @@
+{
+  "name": "es6-sandbox-service",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/app.js",
+  "homepage": "https://github.com/gabrielpoca/es6-sandboxed-service",
+  "scripts": {
+    "test": "mocha",
+    "start": "node lib/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gabrielpoca/es6-sandboxed-service.git"
+  },
+  "author": "Gabriel Poça <gabrielpoca@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "6to5-core": "^2.12.3",
+    "body-parser": "^1.10.1",
+    "express": "^4.11.0",
+    "sandbox": "^0.8.6",
+    "zero-config": "^4.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.6.0",
+    "supertest": "^0.15.0"
+  }
+}
